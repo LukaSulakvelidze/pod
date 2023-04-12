@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chivo:wght@100;400&display=swap" rel="stylesheet">
+  <link rel="icon" href="main.icon.png">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+  <title>
+    Pod
+  </title>
+</head>
+
+<body>
+  <div class="container">
+    <img class="pod" src="head.png" alt="">
+    <img class="tab-avatar" src="tab avatar.png" alt="">
+    <img class="desk-avatar" src="desk.avatar.png" alt="">
+    
+    <div class="item1">
+      <h1 class="headline"> <span style="color: #54E6AF;"> publish tour podcast </span> everywhere </h1>
+      <h2 class="paragraph"> Upload your audio to Pod with a single click. We’ll then distribute your podcast to Spotify, Apple Podcasts, Google Podcasts, Pocket Casts and more! </h2>
+      <div class="item2">
+        <img class="spotify" src="spotify.png" alt="">
+        <img class="apple" src="apple.podcast.png" alt="">
+        <img class="google" src="google.podcast.png" alt="">
+        <img class="pocket" src="pocket.cast.png" alt="">
+      </div>
+      <form id="form" class="item3">
+        <input id="mail" class="mail" type="email" placeholder="Email address" onkeyup="validateEmail()">
+        <p id="sent" class="sent"> Your email is sent </p>
+        <p id="error" class="valid"> Please enter valid email </p>
+        <button id="button" type="submit"> Request Acces </button>
+      </form>
+    </div>
+    <img class="dots" src="tab.dots.png" alt="">
+  </div>
+</body>
+
+<script src="pod.js"></script>
+
+</html>
